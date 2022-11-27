@@ -21,5 +21,9 @@
     "nuxt": "^3.0.0",
     "pinia": "^2.0.23",
     "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.37.1",
+    "@slidev/theme-default": "^0.21.2"
   }
 }
