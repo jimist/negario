@@ -1,29 +1,33 @@
-<script setup>
-useHead({
-  title: 'Vitesse Nuxt 3',
-  link: [
-    {
-      rel: 'icon', type: 'image/png', href: '/nuxt.png',
-    },
-  ],
-})
-</script>
+# negaar.io
 
-<template>
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
-</template>
+```text
+/negār/
+نِگار
+Negaar
+```
 
-<style>
-html, body , #__nuxt{
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-}
+_`all statements have with no liability for people stating them`_
 
-html.dark {
-  background: #222;
-  color: white;
-}
-</style>
+## Vision
+
+**Empower Everyone** to **_create_** **Semi Intelligent Super Graph** for **Everything**
+
+```text
+everyone = owrself and others
+everything = knowelegde, product, service and similar
+semi itelligent = self unaware, intuitive, fast, efficient, true, ..،
+```
+
+## Mission
+
+### FIRST | نُخُسْتْ
+
+ 1. Make the directory for learning current technologies with existing and new demnanding content
+ 2. Make the interactive practice playground for demanding learning materials
+ 3. Make the **learning sheet and tracker** for newcomers
+
+```text
+expiration  2023 December  1
+creation    2022 november 27
+updates     
+```
