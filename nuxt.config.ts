@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     // https://nuxtjs.org/docs/configuration-glossary/configuration-alias
     '~~': resolve(__dirname, './'),
     'img': '~~/src/asset/image',
+    'sass': '~~/src/asset/sass',
   },
   dir: {
     // https://nuxtjs.org/docs/configuration-glossary/configuration-dir/
@@ -20,16 +21,18 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
   ],
-  css: [
-    // https://nuxtjs.org/docs/configuration-glossary/configuration-css
-    '@unocss/reset/tailwind.css',
-  ],
 
   // unscoped system configuration
   experimental: {
     reactivityTransform: true,
     inlineSSRStyles: false,
   },
+  css: [
+    // https://nuxtjs.org/docs/configuration-glossary/configuration-css
+    '@unocss/reset/tailwind.css',
+    '~~/src/asset/sass/xpolar.scss',
+    '~~/src/asset/sass/negar.scss',
+  ],
 
   // depnency configuration
   colorMode: {
